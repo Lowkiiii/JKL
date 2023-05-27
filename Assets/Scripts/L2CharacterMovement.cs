@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class CharacterMovement : MonoBehaviour
+public class L2CharacterMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float horizontalInput;
@@ -95,7 +95,7 @@ public class CharacterMovement : MonoBehaviour
 
         if (collision.collider.CompareTag("Totem"))
         {
-            if (collectedEnergies == 10)
+            if (collectedEnergies == 15)
             {
                 SceneManager.LoadScene("Level Complete");
             }
@@ -128,7 +128,7 @@ public class CharacterMovement : MonoBehaviour
 
         //audioSource.Stop();
         SceneManager.LoadScene("Play Again");
-        
+
 
 
     }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1639981326820285159}
   - component: {fileID: 1639981326820285160}
   - component: {fileID: 1639981326820285158}
-  - component: {fileID: 1639981326820285157}
+  - component: {fileID: -1847195860079281747}
   m_Layer: 0
   m_Name: GHG_mob1
   m_TagString: Enemy
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13, y: 10.32}
   m_EdgeRadius: 0
---- !u!114 &1639981326820285157
+--- !u!114 &-1847195860079281747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,8 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1639981326820285161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fff5bee213704e4fa8466cfb980d2a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 18b079e981a847f49a599048e2901338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  moveDistance: 3
+  moveSpeed: 5
