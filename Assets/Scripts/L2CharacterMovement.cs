@@ -127,7 +127,7 @@ public class L2CharacterMovement : MonoBehaviour
         Destroy(this.gameObject);
 
         //audioSource.Stop();
-        SceneManager.LoadScene("Play Again");
+        SceneManager.LoadScene("L2PlayAgain");
 
 
 

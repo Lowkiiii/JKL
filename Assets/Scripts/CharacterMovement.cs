@@ -79,7 +79,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
-            StartCoroutine(GameOverSequence());
+            StartCoroutine(GameOverSequence());  
         }
 
         /*if (collision.gameObject.CompareTag("Enemy"))
@@ -88,7 +88,7 @@ public class CharacterMovement : MonoBehaviour
             // code to handle the player losing goes here
         }*/
 
-        if (collision.collider.tag == "Floor" || collision.collider.tag == "block")
+        if (collision.collider.tag == "Floor" || collision.collider.tag == "Block")
         {
             isJumping = false;
         }

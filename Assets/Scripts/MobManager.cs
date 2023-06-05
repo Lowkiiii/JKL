@@ -7,7 +7,7 @@ public class MobManager : MonoBehaviour
     [SerializeField] private GameObject mobPrefab;
 
     //Time between spawns
-    private float timeElapsed = 5;
+    private float timeElapsed = 7;
 
     //Updated mob position with reference to this game object
     Vector2 mobPosition;
@@ -35,7 +35,7 @@ public class MobManager : MonoBehaviour
 
             //Spawn objects
             Instantiate(mobPrefab, mobPosition, Quaternion.identity);
-            timeElapsed = 5;
+            timeElapsed = 7;
         }
 
     }

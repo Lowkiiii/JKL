@@ -8,7 +8,6 @@ public class GrabController : MonoBehaviour
     public Transform boxHolder;
     public float rayDist;
 
-    //public CharacterMovement cm;
 
     // Update is called once per frame
     void Update()

@@ -22,22 +22,7 @@ public class Resources : MonoBehaviour
             ScoreNum++;
             Destroy(other.gameObject);
             MyscoreText.text = "Energy: " + ScoreNum;
-
-            /*if (ScoreNum == 10)
-            {
-                if (GameObject.FindGameObjectWithTag("Totem") != null)
-                {
-                    SceneManager.LoadScene("Level Complete");
-                }
-            }*/
         }
 
-        /*if (other.CompareTag("Totem"))
-        {
-            if (ScoreNum == 10)
-            {
-                SceneManager.LoadScene("Level Complete");
-            }
-        }*/
     }
 }

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Play Again.unity
     guid: 4878fa31c3f30c84ba26e435f74498e8
+  - enabled: 1
+    path: Assets/Scenes/L2PlayAgain.unity
+    guid: 54031db8c5e99814aa59065c8e84190e
   m_configObjects: {}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1639981326820285160}
   - component: {fileID: 1639981326820285158}
   - component: {fileID: -1847195860079281747}
+  - component: {fileID: -4576410310470833951}
   m_Layer: 0
   m_Name: GHG_mob1
   m_TagString: Enemy
@@ -125,3 +126,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+--- !u!114 &-4576410310470833951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639981326820285161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e56910d2f42894e98ef4010b89418f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 8300000, guid: 7a1e0db15b633dc4bacaff19d8900b7d, type: 3}
